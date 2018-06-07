@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D306C7281DBDA16E0043B6FF /* KTIIndexDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D306C7271DBDA16E0043B6FF /* KTIIndexDrawView.m */; };
+		D306C72C1DBDB6A30043B6FF /* KTITrendIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = D306C72B1DBDB6A30043B6FF /* KTITrendIndexView.m */; };
+		D306C7361DBDE6B40043B6FF /* KTIKlineIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = D306C7351DBDE6B40043B6FF /* KTIKlineIndexView.m */; };
+		D306C7371DBDF0D20043B6FF /* KTITrendIndexView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D306C72A1DBDB6A30043B6FF /* KTITrendIndexView.h */; };
+		D306C7381DBDF0D20043B6FF /* KTIIndexViewDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D306C72D1DBDB7290043B6FF /* KTIIndexViewDelegate.h */; };
+		D306C7391DBDF0D20043B6FF /* KTIKlineIndexView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D306C7341DBDE6B40043B6FF /* KTIKlineIndexView.h */; };
+		D306C73A1DBDF0D20043B6FF /* KTIIndexStyle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3810C6E1DB8AE2D00D214FE /* KTIIndexStyle.h */; };
+		D306C73B1DBDF0D20043B6FF /* KTIStyleType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3810C711DB8AFA200D214FE /* KTIStyleType.h */; };
+		D306C73C1DBDF0D20043B6FF /* KTINodeData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3810C741DB8B83900D214FE /* KTINodeData.h */; };
+		D306C74A1DBE05150043B6FF /* KTIKlineTrendIndex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3810C6A1DB8A6BF00D214FE /* KTIKlineTrendIndex.h */; };
+		D31BCE641DC1E7C700D8528C /* KTIScrollKlineIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = D31BCE631DC1E7C700D8528C /* KTIScrollKlineIndexView.m */; };
+		D31BCE6C1DC1F81000D8528C /* KTIScrollTrendIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = D31BCE6B1DC1F81000D8528C /* KTIScrollTrendIndexView.m */; };
+		D31BCE721DC1FCF900D8528C /* KTIFlashingIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = D31BCE711DC1FCF900D8528C /* KTIFlashingIndexView.m */; };
+		D3810C701DB8AE2D00D214FE /* KTIIndexStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D3810C6F1DB8AE2D00D214FE /* KTIIndexStyle.m */; };
+		D3810C761DB8B83900D214FE /* KTINodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = D3810C751DB8B83900D214FE /* KTINodeData.m */; };
+		D3810C791DB8BB3700D214FE /* KTIUnitDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = D3810C781DB8BB3700D214FE /* KTIUnitDraw.m */; };
+		D3810C841DB8BC7F00D214FE /* KTICandleUnitDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = D3810C7B1DB8BC7F00D214FE /* KTICandleUnitDraw.m */; };
+		D3810C851DB8BC7F00D214FE /* KTICircleUnitDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = D3810C7D1DB8BC7F00D214FE /* KTICircleUnitDraw.m */; };
+		D3810C861DB8BC7F00D214FE /* KTIIconUnitDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = D3810C7F1DB8BC7F00D214FE /* KTIIconUnitDraw.m */; };
+		D3810C871DB8BC7F00D214FE /* KTIRectUnitDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = D3810C811DB8BC7F00D214FE /* KTIRectUnitDraw.m */; };
+		D3810C881DB8BC7F00D214FE /* KTITextUnitDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = D3810C831DB8BC7F00D214FE /* KTITextUnitDraw.m */; };
+		D3810C911DB8C3AB00D214FE /* KTIBaseIndexDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3810C901DB8C3AB00D214FE /* KTIBaseIndexDrawView.m */; };
+		D38705381DD57018009074C4 /* KTIScrollKlineIndexView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D31BCE621DC1E7C700D8528C /* KTIScrollKlineIndexView.h */; };
+		D38705391DD57018009074C4 /* KTIScrollTrendIndexView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D31BCE6A1DC1F81000D8528C /* KTIScrollTrendIndexView.h */; };
+		D387053A1DD57018009074C4 /* KTIFlashingIndexView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D31BCE701DC1FCF900D8528C /* KTIFlashingIndexView.h */; };
+		D3FA24F51DB9B51800AF5C1F /* KTITrendDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA24F41DB9B51800AF5C1F /* KTITrendDrawView.m */; };
+		D3FA24F81DB9B55800AF5C1F /* KTIKlineDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA24F71DB9B55800AF5C1F /* KTIKlineDrawView.m */; };
+		D3FA24FC1DB9BEBD00AF5C1F /* KTICustomDataOper.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA24FB1DB9BEBD00AF5C1F /* KTICustomDataOper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3810C5A1DB8A64700D214FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRODUCT_NAME)/include";
+			dstSubfolderSpec = 16;
+			files = (
+				D38705381DD57018009074C4 /* KTIScrollKlineIndexView.h in CopyFiles */,
+				D38705391DD57018009074C4 /* KTIScrollTrendIndexView.h in CopyFiles */,
+				D387053A1DD57018009074C4 /* KTIFlashingIndexView.h in CopyFiles */,
+				D306C74A1DBE05150043B6FF /* KTIKlineTrendIndex.h in CopyFiles */,
+				D306C7371DBDF0D20043B6FF /* KTITrendIndexView.h in CopyFiles */,
+				D306C7381DBDF0D20043B6FF /* KTIIndexViewDelegate.h in CopyFiles */,
+				D306C7391DBDF0D20043B6FF /* KTIKlineIndexView.h in CopyFiles */,
+				D306C73A1DBDF0D20043B6FF /* KTIIndexStyle.h in CopyFiles */,
+				D306C73B1DBDF0D20043B6FF /* KTIStyleType.h in CopyFiles */,
+				D306C73C1DBDF0D20043B6FF /* KTINodeData.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D306C7261DBDA16E0043B6FF /* KTIIndexDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIIndexDrawView.h; sourceTree = "<group>"; };
+		D306C7271DBDA16E0043B6FF /* KTIIndexDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIIndexDrawView.m; sourceTree = "<group>"; };
+		D306C72A1DBDB6A30043B6FF /* KTITrendIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTITrendIndexView.h; sourceTree = "<group>"; };
+		D306C72B1DBDB6A30043B6FF /* KTITrendIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTITrendIndexView.m; sourceTree = "<group>"; };
+		D306C72D1DBDB7290043B6FF /* KTIIndexViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIIndexViewDelegate.h; sourceTree = "<group>"; };
+		D306C7341DBDE6B40043B6FF /* KTIKlineIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIKlineIndexView.h; sourceTree = "<group>"; };
+		D306C7351DBDE6B40043B6FF /* KTIKlineIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIKlineIndexView.m; sourceTree = "<group>"; };
+		D31BCE621DC1E7C700D8528C /* KTIScrollKlineIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIScrollKlineIndexView.h; sourceTree = "<group>"; };
+		D31BCE631DC1E7C700D8528C /* KTIScrollKlineIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIScrollKlineIndexView.m; sourceTree = "<group>"; };
+		D31BCE6A1DC1F81000D8528C /* KTIScrollTrendIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIScrollTrendIndexView.h; sourceTree = "<group>"; };
+		D31BCE6B1DC1F81000D8528C /* KTIScrollTrendIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIScrollTrendIndexView.m; sourceTree = "<group>"; };
+		D31BCE701DC1FCF900D8528C /* KTIFlashingIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIFlashingIndexView.h; sourceTree = "<group>"; };
+		D31BCE711DC1FCF900D8528C /* KTIFlashingIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIFlashingIndexView.m; sourceTree = "<group>"; };
+		D3810C5C1DB8A64700D214FE /* libKlineTrendIndex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKlineTrendIndex.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3810C6A1DB8A6BF00D214FE /* KTIKlineTrendIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIKlineTrendIndex.h; sourceTree = "<group>"; };
+		D3810C6E1DB8AE2D00D214FE /* KTIIndexStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIIndexStyle.h; sourceTree = "<group>"; };
+		D3810C6F1DB8AE2D00D214FE /* KTIIndexStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIIndexStyle.m; sourceTree = "<group>"; };
+		D3810C711DB8AFA200D214FE /* KTIStyleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIStyleType.h; sourceTree = "<group>"; };
+		D3810C741DB8B83900D214FE /* KTINodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTINodeData.h; sourceTree = "<group>"; };
+		D3810C751DB8B83900D214FE /* KTINodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTINodeData.m; sourceTree = "<group>"; };
+		D3810C771DB8BB3700D214FE /* KTIUnitDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIUnitDraw.h; sourceTree = "<group>"; };
+		D3810C781DB8BB3700D214FE /* KTIUnitDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIUnitDraw.m; sourceTree = "<group>"; };
+		D3810C7A1DB8BC7F00D214FE /* KTICandleUnitDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTICandleUnitDraw.h; sourceTree = "<group>"; };
+		D3810C7B1DB8BC7F00D214FE /* KTICandleUnitDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTICandleUnitDraw.m; sourceTree = "<group>"; };
+		D3810C7C1DB8BC7F00D214FE /* KTICircleUnitDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTICircleUnitDraw.h; sourceTree = "<group>"; };
+		D3810C7D1DB8BC7F00D214FE /* KTICircleUnitDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTICircleUnitDraw.m; sourceTree = "<group>"; };
+		D3810C7E1DB8BC7F00D214FE /* KTIIconUnitDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIIconUnitDraw.h; sourceTree = "<group>"; };
+		D3810C7F1DB8BC7F00D214FE /* KTIIconUnitDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIIconUnitDraw.m; sourceTree = "<group>"; };
+		D3810C801DB8BC7F00D214FE /* KTIRectUnitDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIRectUnitDraw.h; sourceTree = "<group>"; };
+		D3810C811DB8BC7F00D214FE /* KTIRectUnitDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIRectUnitDraw.m; sourceTree = "<group>"; };
+		D3810C821DB8BC7F00D214FE /* KTITextUnitDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTITextUnitDraw.h; sourceTree = "<group>"; };
+		D3810C831DB8BC7F00D214FE /* KTITextUnitDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTITextUnitDraw.m; sourceTree = "<group>"; };
+		D3810C8F1DB8C3AB00D214FE /* KTIBaseIndexDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIBaseIndexDrawView.h; sourceTree = "<group>"; };
+		D3810C901DB8C3AB00D214FE /* KTIBaseIndexDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIBaseIndexDrawView.m; sourceTree = "<group>"; };
+		D3FA24F31DB9B51800AF5C1F /* KTITrendDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTITrendDrawView.h; sourceTree = "<group>"; };
+		D3FA24F41DB9B51800AF5C1F /* KTITrendDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTITrendDrawView.m; sourceTree = "<group>"; };
+		D3FA24F61DB9B55800AF5C1F /* KTIKlineDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTIKlineDrawView.h; sourceTree = "<group>"; };
+		D3FA24F71DB9B55800AF5C1F /* KTIKlineDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTIKlineDrawView.m; sourceTree = "<group>"; };
+		D3FA24FA1DB9BEBD00AF5C1F /* KTICustomDataOper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTICustomDataOper.h; sourceTree = "<group>"; };
+		D3FA24FB1DB9BEBD00AF5C1F /* KTICustomDataOper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTICustomDataOper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3810C591DB8A64700D214FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D306C7291DBDB5D70043B6FF /* ComView */ = {
+			isa = PBXGroup;
+			children = (
+				D306C72A1DBDB6A30043B6FF /* KTITrendIndexView.h */,
+				D306C72B1DBDB6A30043B6FF /* KTITrendIndexView.m */,
+				D306C72D1DBDB7290043B6FF /* KTIIndexViewDelegate.h */,
+				D306C7341DBDE6B40043B6FF /* KTIKlineIndexView.h */,
+				D306C7351DBDE6B40043B6FF /* KTIKlineIndexView.m */,
+			);
+			path = ComView;
+			sourceTree = "<group>";
+		};
+		D31BCE611DC1E79D00D8528C /* ScrollComView */ = {
+			isa = PBXGroup;
+			children = (
+				D31BCE621DC1E7C700D8528C /* KTIScrollKlineIndexView.h */,
+				D31BCE631DC1E7C700D8528C /* KTIScrollKlineIndexView.m */,
+				D31BCE6A1DC1F81000D8528C /* KTIScrollTrendIndexView.h */,
+				D31BCE6B1DC1F81000D8528C /* KTIScrollTrendIndexView.m */,
+				D31BCE701DC1FCF900D8528C /* KTIFlashingIndexView.h */,
+				D31BCE711DC1FCF900D8528C /* KTIFlashingIndexView.m */,
+			);
+			path = ScrollComView;
+			sourceTree = "<group>";
+		};
+		D3810C531DB8A64700D214FE = {
+			isa = PBXGroup;
+			children = (
+				D31BCE611DC1E79D00D8528C /* ScrollComView */,
+				D306C7291DBDB5D70043B6FF /* ComView */,
+				D3FA24F91DB9BE9100AF5C1F /* operation */,
+				D3810C681DB8A6BF00D214FE /* Index */,
+				D3810C691DB8A6BF00D214FE /* KlineTrendIndex */,
+				D3810C6B1DB8A6BF00D214FE /* Layer */,
+				D3810C6C1DB8A6BF00D214FE /* Model */,
+				D3810C6D1DB8A6BF00D214FE /* Unit */,
+				D3810C5D1DB8A64700D214FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3810C5D1DB8A64700D214FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3810C5C1DB8A64700D214FE /* libKlineTrendIndex.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3810C681DB8A6BF00D214FE /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				D3810C8F1DB8C3AB00D214FE /* KTIBaseIndexDrawView.h */,
+				D3810C901DB8C3AB00D214FE /* KTIBaseIndexDrawView.m */,
+				D3FA24F31DB9B51800AF5C1F /* KTITrendDrawView.h */,
+				D3FA24F41DB9B51800AF5C1F /* KTITrendDrawView.m */,
+				D3FA24F61DB9B55800AF5C1F /* KTIKlineDrawView.h */,
+				D3FA24F71DB9B55800AF5C1F /* KTIKlineDrawView.m */,
+				D306C7261DBDA16E0043B6FF /* KTIIndexDrawView.h */,
+				D306C7271DBDA16E0043B6FF /* KTIIndexDrawView.m */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		D3810C691DB8A6BF00D214FE /* KlineTrendIndex */ = {
+			isa = PBXGroup;
+			children = (
+				D3810C6A1DB8A6BF00D214FE /* KTIKlineTrendIndex.h */,
+			);
+			path = KlineTrendIndex;
+			sourceTree = "<group>";
+		};
+		D3810C6B1DB8A6BF00D214FE /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		D3810C6C1DB8A6BF00D214FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3810C6E1DB8AE2D00D214FE /* KTIIndexStyle.h */,
+				D3810C6F1DB8AE2D00D214FE /* KTIIndexStyle.m */,
+				D3810C711DB8AFA200D214FE /* KTIStyleType.h */,
+				D3810C741DB8B83900D214FE /* KTINodeData.h */,
+				D3810C751DB8B83900D214FE /* KTINodeData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3810C6D1DB8A6BF00D214FE /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				D3810C7A1DB8BC7F00D214FE /* KTICandleUnitDraw.h */,
+				D3810C7B1DB8BC7F00D214FE /* KTICandleUnitDraw.m */,
+				D3810C7C1DB8BC7F00D214FE /* KTICircleUnitDraw.h */,
+				D3810C7D1DB8BC7F00D214FE /* KTICircleUnitDraw.m */,
+				D3810C7E1DB8BC7F00D214FE /* KTIIconUnitDraw.h */,
+				D3810C7F1DB8BC7F00D214FE /* KTIIconUnitDraw.m */,
+				D3810C801DB8BC7F00D214FE /* KTIRectUnitDraw.h */,
+				D3810C811DB8BC7F00D214FE /* KTIRectUnitDraw.m */,
+				D3810C821DB8BC7F00D214FE /* KTITextUnitDraw.h */,
+				D3810C831DB8BC7F00D214FE /* KTITextUnitDraw.m */,
+				D3810C771DB8BB3700D214FE /* KTIUnitDraw.h */,
+				D3810C781DB8BB3700D214FE /* KTIUnitDraw.m */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		D3FA24F91DB9BE9100AF5C1F /* operation */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA24FA1DB9BEBD00AF5C1F /* KTICustomDataOper.h */,
+				D3FA24FB1DB9BEBD00AF5C1F /* KTICustomDataOper.m */,
+			);
+			path = operation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3810C5B1DB8A64700D214FE /* KlineTrendIndex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3810C651DB8A64700D214FE /* Build configuration list for PBXNativeTarget "KlineTrendIndex" */;
+			buildPhases = (
+				D3810C581DB8A64700D214FE /* Sources */,
+				D3810C591DB8A64700D214FE /* Frameworks */,
+				D3810C5A1DB8A64700D214FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KlineTrendIndex;
+			productName = KlineTrendIndex;
+			productReference = D3810C5C1DB8A64700D214FE /* libKlineTrendIndex.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3810C541DB8A64700D214FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zscf;
+				TargetAttributes = {
+					D3810C5B1DB8A64700D214FE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3810C571DB8A64700D214FE /* Build configuration list for PBXProject "KlineTrendIndex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3810C531DB8A64700D214FE;
+			productRefGroup = D3810C5D1DB8A64700D214FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3810C5B1DB8A64700D214FE /* KlineTrendIndex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3810C581DB8A64700D214FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA24FC1DB9BEBD00AF5C1F /* KTICustomDataOper.m in Sources */,
+				D31BCE641DC1E7C700D8528C /* KTIScrollKlineIndexView.m in Sources */,
+				D3810C911DB8C3AB00D214FE /* KTIBaseIndexDrawView.m in Sources */,
+				D3810C871DB8BC7F00D214FE /* KTIRectUnitDraw.m in Sources */,
+				D306C7281DBDA16E0043B6FF /* KTIIndexDrawView.m in Sources */,
+				D3810C851DB8BC7F00D214FE /* KTICircleUnitDraw.m in Sources */,
+				D3810C761DB8B83900D214FE /* KTINodeData.m in Sources */,
+				D3FA24F81DB9B55800AF5C1F /* KTIKlineDrawView.m in Sources */,
+				D3810C791DB8BB3700D214FE /* KTIUnitDraw.m in Sources */,
+				D31BCE721DC1FCF900D8528C /* KTIFlashingIndexView.m in Sources */,
+				D3810C861DB8BC7F00D214FE /* KTIIconUnitDraw.m in Sources */,
+				D306C72C1DBDB6A30043B6FF /* KTITrendIndexView.m in Sources */,
+				D3810C701DB8AE2D00D214FE /* KTIIndexStyle.m in Sources */,
+				D306C7361DBDE6B40043B6FF /* KTIKlineIndexView.m in Sources */,
+				D3FA24F51DB9B51800AF5C1F /* KTITrendDrawView.m in Sources */,
+				D31BCE6C1DC1F81000D8528C /* KTIScrollTrendIndexView.m in Sources */,
+				D3810C841DB8BC7F00D214FE /* KTICandleUnitDraw.m in Sources */,
+				D3810C881DB8BC7F00D214FE /* KTITextUnitDraw.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3810C631DB8A64700D214FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3810C641DB8A64700D214FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3810C661DB8A64700D214FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3810C671DB8A64700D214FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3810C571DB8A64700D214FE /* Build configuration list for PBXProject "KlineTrendIndex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3810C631DB8A64700D214FE /* Debug */,
+				D3810C641DB8A64700D214FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3810C651DB8A64700D214FE /* Build configuration list for PBXNativeTarget "KlineTrendIndex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3810C661DB8A64700D214FE /* Debug */,
+				D3810C671DB8A64700D214FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3810C541DB8A64700D214FE /* Project object */;
+}
